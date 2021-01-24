@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Framleiðsluferli</title>
+		<title>Contact me</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,8 +18,7 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
+					<header id="header">
 						<a href="index.html" class="logo"><strong>Front page</strong></a>
 						<nav>
 							<a href="#menu">Menu</a>
@@ -34,46 +33,49 @@
 							<li><a href="contact.html">Contact me</a></li>
 						</ul>
 					</nav>
-
-				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+                <!-- Contact -->
+					<section id="contact">
 						<div class="inner">
-							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h1>VÉL403G Framleiðsluferli</h1>
-							</header>
-							<div class="content">
-								<p>Projects from class Framleiðsluferli.</p>
-							</div>
-						</div>
-					</section>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<!--<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
-									</a>-->
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Project 1: Making a website</h3>
-											</header>
-											<ul class="actions">
-												<li><a href="makingwebsite.html" class="button">Learn more</a></li>
-											</ul>
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
 									</div>
-								</section>
-                                
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
 							</section>
-
-					</div>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="saraisey@gmail.com">saraisey@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(+354) 692 7042</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
